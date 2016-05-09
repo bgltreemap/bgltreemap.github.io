@@ -9,7 +9,9 @@
       "title": "Mobirise"
     },
     "publishType": "local",
-    "publishPath": "file:///C:/Users/Niranjan/Documents/BangaloreTreeMap/mobirise"
+    "publishPath": "file:///C:/Users/Niranjan/Documents/BangaloreTreeMap/GitHub/Home/MAIN%20bgltreemap.github.io",
+    "path": "file:///C:/Users/Niranjan/Documents/BangaloreTreeMap/mobirise",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -49,14 +51,18 @@
           },
           "logo": {
             "image": {
-              "src": "images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/janastu.gif",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
-              "active": true
+              "active": true,
+              "link": "http://janastu.org/home/#/work",
+              "alt": "",
+              "title": "Janastu",
+              "linkInNewWindow": false
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JANASTU</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"www.janastu.org\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Treemap.html\">TREE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://janastu.org/home/#/about-us\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li> ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
         },
         {
@@ -68,37 +74,38 @@
             "paddingBottom": 3,
             "slides": [
               {
-                "active": true,
-                "image": "images/slide1.jpg",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/banyan-tree-at-the-valley-school-bangalore-1280x853-7.jpg",
                 "contentAlign": "right",
+                "overlay": false,
                 "showTitle": true,
-                "title": "Slide 1",
+                "title": "Trees &nbsp;of Bengaluru",
                 "showText": true,
-                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "text": "Blah Blah info info",
+                "showButtons": false,
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
               },
               {
-                "active": false,
-                "image": "images/slide2.jpg",
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/banyan-tree-blore-1920x1080-23.jpg",
                 "contentAlign": "left",
                 "showTitle": true,
-                "title": "Slide 2",
+                "title": "More info",
                 "showText": true,
-                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
-                "showButtons": true,
+                "text": "Blah",
+                "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
                 "active": false,
-                "image": "images/slide3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3-1920x1080-76.jpg",
                 "contentAlign": "center",
                 "showTitle": true,
-                "title": "Slide 3",
+                "title": "More info",
                 "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "text": "Blah",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
               }
             ],
             "fullScreen": true,
@@ -112,7 +119,8 @@
           "_inherit": "msg-box5",
           "_styles": {
             ".mbr-header__text": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "text-align": "left"
             },
             ".mbr-header__subtext": {
               "color": "#ffffff"
@@ -149,7 +157,11 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "images/iphone.png"
+              "src": "@PROJECT_PATH@/assets/images/janastu.gif",
+              "link": "www.janastu.org",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
@@ -159,17 +171,86 @@
             }
           },
           "headerAlign": "left",
-          "title": "DRAG AND DROP WEBSITE BUILDER",
+          "title": "ABOUT JANASTU",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+          "text": "<p>Janastu, a non-profit organisation, has been providing Free Open source Software Solutions and support (FOSS) to small non-profits (NPOs/NGOs) since 2002. This includes one-on-one consulting regarding their information management needs, building their online and offline knowledge bases, providing support to their projects by designing web-sites, configuring news-filters, helping them migrate to open source solutions, help deal with localization and Indian language issues, geographic information collection and necessary R&amp;D.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://janastu.org/home/#/about-us\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_name": "gallery2",
+          "_params": {
+            "images": [
+              {
+                "caption": "Acacia farnesiana",
+                "thumb": "@PROJECT_PATH@/assets/images/acacia-800x540-6-800x540-73.jpg",
+                "image": "@PROJECT_PATH@/assets/images/acacia-800x540-6.jpg",
+                "active": false
+              },
+              {
+                "caption": "Bridelia retusa",
+                "thumb": "@PROJECT_PATH@/assets/images/bridelia-800x540-97-800x540-80.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bridelia-800x540-97.jpg",
+                "active": false
+              },
+              {
+                "caption": "Albizia odaratissima",
+                "thumb": "@PROJECT_PATH@/assets/images/albizia-800x540-29-800x540-27.jpg",
+                "image": "@PROJECT_PATH@/assets/images/albizia-800x540-29.jpg",
+                "active": false
+              },
+              {
+                "caption": "Cassia fistula",
+                "thumb": "@PROJECT_PATH@/assets/images/casia-800x540-0-800x540-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/casia-800x540-0.jpg",
+                "active": false
+              },
+              {
+                "caption": "Cochlospermum religiosum",
+                "thumb": "@PROJECT_PATH@/assets/images/yellowe-800x540-44-800x540-20.jpg",
+                "image": "@PROJECT_PATH@/assets/images/yellowe-800x540-44.jpg",
+                "active": false
+              },
+              {
+                "caption": "Wrightia tinctoria",
+                "thumb": "@PROJECT_PATH@/assets/images/wrightia-800x540-92-800x540-5.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wrightia-800x540-92.jpg",
+                "active": false
+              },
+              {
+                "caption": "Lagerstroemia parviflora",
+                "thumb": "@PROJECT_PATH@/assets/images/lager-800x540-76-800x540-40.jpg",
+                "image": "@PROJECT_PATH@/assets/images/lager-800x540-76.jpg",
+                "active": true
+              },
+              {
+                "caption": "Firmiana colorata",
+                "thumb": "@PROJECT_PATH@/assets/images/firmiana-800x540-75-800x540-26.jpg",
+                "image": "@PROJECT_PATH@/assets/images/firmiana-800x540-75.jpg",
+                "active": false
+              }
+            ],
+            "showText": true,
+            "fullWidth": false,
+            "noGutter": true
+          },
+          "_anchor": "gallery2-9",
+          "articleLayout": true
         },
         {
           "_name": "features1",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            },
+            ".mbr-section__col .mbr-header__text": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "features1-10",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -182,163 +263,131 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showHeader": false,
+            "showHeader": true,
             "showSubheader": false,
-            "columns": 4,
+            "columns": "6",
             "showImages": true,
             "showTitles": true,
             "showCaptions": true,
             "showButtons": true
           },
           "headerAlign": "left",
-          "header": "DROP-DEAD EASY WEBSITE MAKER",
+          "header": "Categories of trees in Bengaluru",
           "subheader": "By John Smith posted July 30, 2015",
           "media1": {
             "image": {
               "active": true,
-              "src": "images/bootstrap.png",
+              "src": "@PROJECT_PATH@/assets/images/ochna1-667x445-60.jpg",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "title1": "BOOTSTRAP 3",
-          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "title1": "ORNAMENTAL TREES",
+          "caption1": "Some info about ornamental trees here.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "media2": {
             "image": {
               "active": true,
-              "src": "images/responsive.png",
+              "src": "@PROJECT_PATH@/assets/images/semecarpus-anacardium-marking-nut-w-img-1402-900x600-22.jpg",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "title2": "RESPONSIVE",
-          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title2": "UTILITY TREES",
+          "caption2": "Some info about utility trees here.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media3": {
             "image": {
               "active": true,
-              "src": "images/google-fonts.png",
+              "src": "@PROJECT_PATH@/assets/images/bridelia-800x540-40.jpg",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "title3": "WEB FONTS",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title3": "BIOLOGICALLY IMPORTANT TREES",
+          "caption3": "Some info about biologically important &nbsp;trees here.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media4": {
             "image": {
               "active": true,
-              "src": "images/unlimited-websites.png",
+              "src": "@PROJECT_PATH@/assets/images/shorea2-275x183-41.jpg",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "title4": "UNLIMITED WEBSITES",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title4": "HERITAGE TREES",
+          "caption4": "Some info about heritage trees here.",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media5": {
             "image": {
               "active": true,
-              "src": "images/blocks.png",
+              "src": "@PROJECT_PATH@/assets/images/terminalia-bellirica-320x240-98.jpg",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "title5": "TRENDY WEBSITE BLOCKS",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "title5": "SACRED TREES",
+          "caption5": "Some info about sacred trees here.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "media6": {
             "image": {
               "active": true,
-              "src": "images/host.png",
+              "src": "@PROJECT_PATH@/assets/images/doli-715x536-39.jpg",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "title6": "HOST ANYWHERE",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
-        },
-        {
-          "_name": "gallery1",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "images": [
-              {
-                "caption": "Type caption here",
-                "thumb": "images/slide1-small.jpg",
-                "image": "images/slide1.jpg",
-                "active": true
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "images/slide2-small.jpg",
-                "image": "images/slide2.jpg"
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "images/slide3-small.jpg",
-                "image": "images/slide3.jpg"
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "images/slide4-small.jpg",
-                "image": "images/slide4.jpg"
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "images/slide5-small.jpg",
-                "image": "images/slide5.jpg"
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "images/slide6-small.jpg",
-                "image": "images/slide6.jpg"
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "images/slide7-small.jpg",
-                "image": "images/slide7.jpg"
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "images/slide8-small.jpg",
-                "image": "images/slide8.jpg"
-              }
-            ],
-            "showText": false,
-            "bgColor": "#4c6972",
-            "fullWidth": false,
-            "noGutter": true
-          },
-          "_anchor": "gallery1-6",
-          "articleLayout": false
+          "title6": "URBAN TREES",
+          "caption6": "Some info about urban trees here.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
         },
         {
           "_name": "contacts1",
@@ -357,15 +406,19 @@
           },
           "logo": {
             "image": {
-              "src": "images/footer-logo.png",
+              "src": "@PROJECT_PATH@/assets/images/janastu.gif",
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
-              "active": true
+              "active": true,
+              "link": "http://janastu.org/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
-          "text1": "<strong>ADDRESS</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
-          "text2": "<strong>CONTACTS</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\">Website builder</a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a></li></ul>"
+          "text1": "<strong>ADDRESS</strong><br>Janastu<br>                 3354 KR Road,<br>                 Bangalore 560070,<br>                 Karnataka,<br>                 INDIA.<br>",
+          "text2": "<strong>CONTACTS</strong><br>Phone:   +91-80-2676-2963 <br>Email:     janastu at servelots dot com<br> <br>Come lunch with us!<br>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"http://janastu.org/\" class=\"text-gray\">Janastu</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\"></a></li><li><br></li></ul>"
         }
       ]
     },

@@ -9,10 +9,17 @@
 }
 #msg-box4-8 .mbr-header__text {
   color: #ffffff;
+  text-align: left;
 }
 #msg-box4-8 .mbr-header__subtext {
   color: #ffffff;
 }
 #msg-box4-8 .mbr-article {
   color: #ffffff;
+}
+#features1-10 P {
+  text-align: left;
+}
+#features1-10 .mbr-section__col .mbr-header__text {
+  text-align: center;
 }
