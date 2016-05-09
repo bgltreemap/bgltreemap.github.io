@@ -1231,7 +1231,7 @@ html {
 }
 .mbr-buttons--right .mbr-buttons__btn,
 .mbr-buttons--right .mbr-buttons__link {
-  margin: 0 0 13px 10px;
+  margin: 0 0 13px 10px; font-size: 25px;
 }
 .mbr-buttons--right.mbr-buttons--only-links {
   left: 20px;
