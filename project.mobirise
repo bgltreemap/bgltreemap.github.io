@@ -86,7 +86,7 @@
                 "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
               },
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/banyan-tree-blore-1920x1080-23.jpg",
                 "contentAlign": "left",
                 "showTitle": true,
@@ -97,8 +97,8 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/3-1920x1080-76.jpg",
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/roopa-chikki-1600x1200-16.jpg",
                 "contentAlign": "center",
                 "showTitle": true,
                 "title": "More info",
