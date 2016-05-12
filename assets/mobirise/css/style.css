@@ -872,7 +872,7 @@ html {
 }
 .mbr-figure--wysiwyg .mbr-figure__caption a,
 .mbr-figure--wysiwyg .mbr-figure__caption a:hover {
-  color: inherit;
+  color: #252525;
   text-decoration: underline;
 }
 .mbr-figure--caption-inside-top .mbr-figure__caption {
